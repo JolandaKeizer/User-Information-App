@@ -1,0 +1,62 @@
+body { 
+    display: block;
+    margin: 8px;
+    background-image: url("/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100%;
+    margin: 30px;
+}
+
+h2 {
+	margin: 0px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #c78c00;
+    text-decoration: underline;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #ecad19;
+    border-color: #c78c00;
+    margin-right: 50px;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #c78c00;
+    border-color: #ecad19;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

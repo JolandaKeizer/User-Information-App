@@ -1,0 +1,23 @@
+{
+  "name": "user information app",
+  "version": "1.0.0",
+  "description": "find user in json file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Jolanda Keizer",
+  "license": "ISC",
+  "dependencies": {
+    "bloodhound": "^1.0.0",
+    "express": "^4.15.2",
+    "lodash": "^3.10.1",
+    "pug": "^2.0.0-rc.1",
+    "typeahead.js": "^0.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  }
+}

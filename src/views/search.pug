@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+	head
+		title= "Search user in json file"
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+		link(rel='stylesheet', href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css')
+		link(rel='stylesheet', href='../../main.css', type='text/css')
+		script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+		script(src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js')
+		script(src='../../autocomplete.js')
+		
+	body
+		h2 <p style="color: orange">Find a user in our database
+		form(method='POST' action='/searchresults')
+			p
+			| First or last name: 
+			br
+			input(type='text', name='name', value='', id="search-query")
+			br
+			input(type='text', name='email', value='', id="email")
+			br
+			input(type='submit', value='Submit', id="search")
+			br
+			br
+		a.btn.btn-info(href='newuser', role='button') register here
+
+
+
+
